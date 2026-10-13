@@ -591,3 +591,37 @@ main {
 #infoModal:not(.hidden) {
   display: flex;
 }
+
+
+.botao-musica {
+  margin: 18px auto;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.botao-musica button {
+  background: #fff0f3;
+  color: #9f2534;
+  border: 1px solid #d98a98;
+  border-radius: 30px;
+  padding: 11px 20px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px #9f253422;
+}
+
+.botao-musica button:hover {
+  background: #ffe0e7;
+}
+
+
+.titulo-musica {
+  color: #9f2534;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin: 12px 20px;
+}
