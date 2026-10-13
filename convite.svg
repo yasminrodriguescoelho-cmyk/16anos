@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1300" viewBox="0 0 900 1300">
+  <defs>
+    <pattern id="gingham" width="54" height="54" patternUnits="userSpaceOnUse">
+      <rect width="54" height="54" fill="#f7e6df"/>
+      <rect width="27" height="27" fill="#c94a4b" opacity=".18"/>
+      <rect x="27" y="27" width="27" height="27" fill="#c94a4b" opacity=".18"/>
+      <path d="M0 0H54M0 27H54M0 0V54M27 0V54" stroke="#b83b42" stroke-width="2" opacity=".3"/>
+    </pattern>
+    <pattern id="paper" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#fff8e9"/>
+      <circle cx="2" cy="3" r=".7" fill="#d9c7a7" opacity=".35"/>
+      <circle cx="7" cy="8" r=".5" fill="#d9c7a7" opacity=".3"/>
+    </pattern>
+    <linearGradient id="balloon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8589"/><stop offset=".45" stop-color="#d51e32"/><stop offset="1" stop-color="#8e1223"/>
+    </linearGradient>
+    <g id="strawberry">
+      <path d="M0 -18 C-10 -31 -20 -24 -13 -13 C-27 -19 -30 -6 -16 0 C-14 16 -6 29 0 31 C7 28 15 13 16 0 C29 -9 19 -22 10 -13 C13 -28 2 -29 0 -18Z" fill="#c92f3e" stroke="#9c2430" stroke-width="2"/>
+      <path d="M-3 -19 Q-14 -28 -20 -21 Q-9 -20 -3 -15 Q-1 -24 7 -28 Q7 -18 2 -14 Q14 -21 18 -15 Q7 -12 2 -12Z" fill="#557743"/>
+      <g fill="#ffe4a1">
+        <ellipse cx="-7" cy="-5" rx="1.6" ry="2.4"/><ellipse cx="5" cy="-6" rx="1.6" ry="2.4"/>
+        <ellipse cx="-10" cy="7" rx="1.6" ry="2.4"/><ellipse cx="1" cy="5" rx="1.6" ry="2.4"/><ellipse cx="8" cy="14" rx="1.6" ry="2.4"/>
+        <ellipse cx="-3" cy="17" rx="1.6" ry="2.4"/>
+      </g>
+    </g>
+    <g id="flower">
+      <g fill="#fffdf4" stroke="#e8d9bc" stroke-width="1">
+        <ellipse cy="-11" rx="6" ry="12"/><ellipse cy="-11" rx="6" ry="12" transform="rotate(60)"/><ellipse cy="-11" rx="6" ry="12" transform="rotate(120)"/><ellipse cy="-11" rx="6" ry="12" transform="rotate(180)"/><ellipse cy="-11" rx="6" ry="12" transform="rotate(240)"/><ellipse cy="-11" rx="6" ry="12" transform="rotate(300)"/>
+      </g><circle r="6" fill="#e8b44c"/>
+    </g>
+  </defs>
+  <rect width="900" height="1300" fill="url(#gingham)"/>
+  <rect x="38" y="38" width="824" height="1224" rx="7" fill="url(#paper)" stroke="#fffdf4" stroke-width="8"/>
+  <rect x="57" y="57" width="786" height="1186" fill="none" stroke="#c94a4b" stroke-width="2" stroke-dasharray="5 8" opacity=".65"/>
+  <g opacity=".95">
+    <use href="#strawberry" transform="translate(115 110) rotate(-20) scale(1.35)"/>
+    <use href="#strawberry" transform="translate(255 80) rotate(15) scale(1.1)"/>
+    <use href="#flower" transform="translate(380 103) scale(1.15)"/>
+    <use href="#strawberry" transform="translate(540 95) rotate(-12) scale(1.25)"/>
+    <use href="#flower" transform="translate(710 105) scale(1.1)"/>
+    <use href="#strawberry" transform="translate(790 155) rotate(20) scale(1.25)"/>
+    <use href="#strawberry" transform="translate(105 315) rotate(-15) scale(1.15)"/>
+    <use href="#flower" transform="translate(792 430) scale(1.15)"/>
+    <use href="#strawberry" transform="translate(100 565) rotate(10) scale(1.1)"/>
+    <use href="#flower" transform="translate(795 720) scale(1.1)"/>
+    <use href="#strawberry" transform="translate(105 880) rotate(-10) scale(1.2)"/>
+    <use href="#flower" transform="translate(790 1020) scale(1.1)"/>
+    <use href="#strawberry" transform="translate(140 1160) rotate(15) scale(1.2)"/>
+    <use href="#strawberry" transform="translate(760 1170) rotate(-15) scale(1.2)"/>
+  </g>
+  <g font-family="Georgia,serif" text-anchor="middle">
+    <text x="450" y="235" font-size="36" font-weight="bold" letter-spacing="6" fill="#5d7844">VOCÊ ESTÁ CONVIDADA</text>
+    <g transform="translate(450 390)">
+      <ellipse cx="-80" cy="-12" rx="67" ry="86" fill="url(#balloon)" stroke="#9b1727" stroke-width="5"/>
+      <ellipse cx="-98" cy="-44" rx="12" ry="31" fill="#fff" opacity=".45" transform="rotate(20 -98 -44)"/>
+      <ellipse cx="76" cy="-12" rx="75" ry="86" fill="url(#balloon)" stroke="#9b1727" stroke-width="5"/>
+      <ellipse cx="54" cy="-43" rx="13" ry="31" fill="#fff" opacity=".42" transform="rotate(20 54 -43)"/>
+      <text x="-80" y="20" font-size="116" font-weight="bold" fill="#fff5ed" stroke="#8e1223" stroke-width="2">1</text>
+      <text x="76" y="20" font-size="116" font-weight="bold" fill="#fff5ed" stroke="#8e1223" stroke-width="2">6</text>
+    </g>
+    <text x="450" y="525" font-size="92" font-weight="bold" fill="#b52d36" letter-spacing="8">anos</text>
+    <path d="M205 555 Q450 580 695 555" stroke="#5d7844" stroke-width="3" fill="none"/>
+    <text x="450" y="650" font-size="43" font-weight="bold" fill="#861e2b">Você está oficialmente</text>
+    <text x="450" y="705" font-size="43" font-weight="bold" fill="#861e2b">convidada para a minha festa!</text>
+    <text x="450" y="790" font-size="31" font-weight="bold" fill="#5d7844">📍 Local: coloque o endereço</text>
+    <text x="450" y="842" font-size="31" font-weight="bold" fill="#5d7844">🕗 Horário: coloque o horário</text>
+    <text x="450" y="894" font-size="31" font-weight="bold" fill="#5d7844">🍓 Data: coloque a data</text>
+    <text x="450" y="985" font-size="30" font-style="italic" fill="#8d2531">Sua presença vai deixar meu dia</text>
+    <text x="450" y="1028" font-size="30" font-style="italic" fill="#8d2531">ainda mais doce!</text>
+    <text x="450" y="1120" font-size="48" font-weight="bold" fill="#b52d36">♡ Te espero! ♡</text>
+  </g>
+  <g transform="translate(690 1120) scale(1.15)"><use href="#flower"/></g>
+  <g transform="translate(205 1090) scale(1.2)"><use href="#strawberry"/></g>
+</svg>
