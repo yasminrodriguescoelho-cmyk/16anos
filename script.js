@@ -151,3 +151,25 @@ fecharInformacoes();
 
 // Configurar os links
 configurarLinks();
+
+
+
+const musica = document.getElementById("musica");
+const botaoMusica = document.getElementById("botaoMusica");
+
+if (musica && botaoMusica) {
+  botaoMusica.addEventListener("click", async () => {
+    if (musica.paused) {
+      try {
+        await musica.play();
+        botaoMusica.textContent = "⏸️ Pausar música";
+      } catch (erro) {
+        console.error("Erro ao tocar a música:", erro);
+        alert("A música não tocou. Vamos verificar o arquivo musica.mp3.");
+      }
+    } else {
+      musica.pause();
+      botaoMusica.textContent = "🎵 Tocar música";
+    }
+  });
+}
